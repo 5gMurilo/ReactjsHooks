@@ -1,0 +1,10 @@
+.NotFound {
+    width: 82vw;
+    height: 30vw;
+    align-items: center;
+    text-align: center;
+}
+
+.emoji {
+    font-size: 77px;
+}
