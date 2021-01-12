@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Switch } from "react-router-dom";
+import { Route, Switch} from 'react-router-dom';
 
 import NotFound from "../../views/examples/NotFound";
 import UseCallback from "../../views/examples/UseCallback";
