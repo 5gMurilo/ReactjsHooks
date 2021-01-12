@@ -24,11 +24,13 @@ const UseContext = () => {
         <span className="text">text: {context.state.text}</span>
         <span className="text">number: {context.state.number}</span>
 
-        <div className="btn" onClick={() => addNumber(+1)}>
-          +1
-        </div>
-        <div className="btn" onClick={() => addNumber(-1)}>
-          -1
+        <div>
+          <button className="btn" onClick={() => addNumber(+1)}>
+            +1
+          </button>
+          <button className="btn" onClick={() => addNumber(-1)}>
+            -1
+          </button>
         </div>
       </div>
     </>

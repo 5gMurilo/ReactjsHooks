@@ -1,7 +1,7 @@
 import React from "react";
 
 export const data = {
-  number: 1,
+  number: 123,
   text: "Context API...",
 };
 
