@@ -1,34 +1,34 @@
 .Menu {
-    display: flex;
-    flex-basis: 17vw;
-    background: linear-gradient(#ef626c, #cb5860);
-    margin-right: 10px;
-    box-shadow: 0 0 5px 0 black;
+  display: flex;
+  flex-basis: 17vw;
+  background: linear-gradient(#2689da, #446df6);
+  margin-right: 10px;
+  box-shadow: 0 0 5px 0 black;
 }
 
 .Menu ul {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
 }
 
 .Menu li {
-    display: flex;
+  display: flex;
 }
 
 .Menu li a {
-    flex: 1;
-    padding: 10px;
-    text-decoration: none;
-    color: whitesmoke;
-    font-size: 1.3rem;
-    margin-bottom: 10px;
-    transition: 0.23s;
+  flex: 1;
+  padding: 10px;
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  transition: 0.23s;
 }
 
 .Menu li a:hover {
-    background-color: #00000034;
+  background-color: #00000034;
 }
 
 .Menu nav {
-    flex: 1;
+  flex: 1;
 }
