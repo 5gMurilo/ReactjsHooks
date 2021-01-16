@@ -1,50 +1,50 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    font-family: 'Noto Sans JP', sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans JP", sans-serif;
 }
 
 .center {
-    margin: 0 auto;
-    width: 50vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-size: 1.5rem;
+  margin: 0 auto;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1.5rem;
 }
 
 .btn {
-    border: 4px solid #ff3c38;
-    padding: 4px 10px;
-    background-color: #fdfffc;
-    outline: none;
-    transition: 0.5s;
-    margin: 10px;
-    font-weight: 500;
+  border: 4px solid #357be8;
+  padding: 4px 10px;
+  background-color: #fdfffc;
+  outline: none;
+  transition: 0.5s;
+  margin: 10px;
+  font-weight: 500;
 }
 
 .btn:hover {
-    border: 4px solid #fdfffc;
-    background-color: #ff3c38;
-    transition: 0.3s;
-    box-shadow: 0 0 5px 0 #ff3c38;
-    border-radius: 5px;
-    color: #fdfffc;
+  border: 4px solid #fdfffc;
+  background-color: #357be8;
+  transition: 0.3s;
+  box-shadow: 0 0 5px 0 #357be8;
+  border-radius: 5px;
+  color: #fdfffc;
 }
 
 .input {
-    line-height: 40px;
-    width: 20vw;
-    font-size: 1.4rem;
-    margin: 10px 0;
+  line-height: 40px;
+  width: 20vw;
+  font-size: 1.4rem;
+  margin: 10px 0;
 }
 
 .red {
-    font-weight: 700;
-    color: red;
-    font-size: 2rem;
+  font-weight: 700;
+  color: #357be8;
+  font-size: 2rem;
 }
