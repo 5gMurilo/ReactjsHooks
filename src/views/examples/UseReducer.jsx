@@ -2,11 +2,14 @@ import React, { useReducer } from "react";
 import PageTitle from "../../components/layout/PageTitle";
 import SectionTitle from "../../components/layout/SectionTitle";
 
-import { initialState, initialSecondState, reducerD } from "../../store/index";
+import {
+  initialState,
+  initialSecondState,
+  reducerD,
+  reducer,
+} from "../../store/index";
+
 import { numberAdd2, login } from "../../store/actions";
-
-import { reducer } from "../../store/reducers/index";
-
 const UseReducer = (props) => {
   const [state, dispatch] = useReducer(reducer, initialState);
 

@@ -1,15 +1,8 @@
-function reducer(state, action) {
-  switch (action.type) {
-    case "add2ToNumber":
-      return { ...state, number: state.number + 2 };
-    case "sub2ToNumber":
-      return { ...state, number: state.number - 2 };
-    case "login":
-      return { ...state, user: action.payload };
+import { login } from "../actions";
+import { numberReducer } from "./number";
+import { loginReducer } from "./user";
 
-    default:
-      return state;
-  }
+export function reducer(state, action) {
+  let newState = numberReducer(state, action);
+  return loginReducer(newState, action);
 }
-
-export { reducer };
