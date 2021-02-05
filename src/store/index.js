@@ -1,12 +1,15 @@
 import { reducer } from "./reducers";
+import { numberAdd2 } from "./actions/number";
 
-export const initialState = {
+const initialState = {
   cart: [],
   producst: [],
   user: null,
   //foco
   number: 0,
 };
+
+export { initialState, reducer, numberAdd2 };
 
 export const initialSecondState = {
   number: 1,

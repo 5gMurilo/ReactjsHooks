@@ -3,6 +3,7 @@ import PageTitle from "../../components/layout/PageTitle";
 import SectionTitle from "../../components/layout/SectionTitle";
 
 import { initialState, initialSecondState, reducerD } from "../../store/index";
+import { numberAdd2, login } from "../../store/actions";
 
 import { reducer } from "../../store/reducers/index";
 
@@ -32,10 +33,7 @@ const UseReducer = (props) => {
         </div>
 
         <div>
-          <button
-            className="btn"
-            onClick={() => dispatch({ type: "add2ToNumber" })}
-          >
+          <button className="btn" onClick={() => numberAdd2(dispatch)}>
             +2
           </button>
           <button
@@ -47,7 +45,7 @@ const UseReducer = (props) => {
 
           <button
             className="btn"
-            onClick={() => dispatch({ type: "login", payload: "maria" })}
+            onClick={() => login(dispatch, prompt("Insira um login"))}
           >
             Login
           </button>

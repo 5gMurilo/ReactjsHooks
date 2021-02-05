@@ -1,3 +1,3 @@
 export function numberAdd2(dispatch) {
-  dispatch({ type: "numberAdd2" });
+  dispatch({ type: "add2ToNumber" });
 }
