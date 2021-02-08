@@ -1,4 +1,3 @@
-import { login } from "../actions";
 import { numberReducer } from "./number";
 import { loginReducer } from "./user";
 

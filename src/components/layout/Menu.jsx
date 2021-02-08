@@ -38,6 +38,10 @@ const Menu = (props) => {
           <li>
             <Link to="UseReducer">UseReducer()</Link>
           </li>
+
+          <li>
+            <Link to="UseMyHook">UseMyHook()</Link>
+          </li>
         </ul>
       </nav>
     </aside>

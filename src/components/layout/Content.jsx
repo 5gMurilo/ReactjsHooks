@@ -6,6 +6,7 @@ import UseCallback from "../../views/examples/UseCallback";
 import UseContext from "../../views/examples/UseContext";
 import UseEffect from "../../views/examples/UseEffect";
 import UseMemo from "../../views/examples/UseMemo";
+import UseMyHook from "../../views/examples/UseMyHook";
 import UseReducer from "../../views/examples/UseReducer";
 import UseRef from "../../views/examples/UseRef";
 import UseState from "../../views/examples/UseState";
@@ -47,6 +48,10 @@ const Content = (props) => {
 
         <Route path="/UseReducer">
           <UseReducer />
+        </Route>
+
+        <Route path="/UseMyHook">
+          <UseMyHook />
         </Route>
         {/* rota para pagina não encontrada */}
 
