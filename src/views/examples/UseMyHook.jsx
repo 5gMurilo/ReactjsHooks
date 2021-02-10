@@ -2,7 +2,7 @@ import PageTitle from "../../components/layout/PageTitle";
 import SectionTitle from "../../components/layout/SectionTitle";
 
 import { UseCounter } from "../../Hooks/UseCounter";
-import { useFetch } from "../../Hooks/UseFetch";
+import { useFetch } from "../../Hooks/useFetch";
 
 const UseMyHook = () => {
   const url = "http://files.cod3r.com.br/curso-react/estados.json";
