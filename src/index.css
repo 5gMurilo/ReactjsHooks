@@ -50,3 +50,15 @@
   color: #357be8;
   font-size: 2rem;
 }
+
+.ul {
+  width: 70vw;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.list {
+  font-size: 13pt;
+  list-style: none;
+  margin: 10px;
+}
